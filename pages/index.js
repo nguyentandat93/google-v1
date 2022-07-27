@@ -1,7 +1,9 @@
+import Header from "../components/Header"
+
 function HomePage() {
-    return <div>
-        <h1 className="text-3xl font-bold underline">hello</h1>
-    </div>
+    return (
+        <Header />
+    )
   }
   
   export default HomePage
